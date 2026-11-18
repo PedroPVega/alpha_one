@@ -1,7 +1,7 @@
 """src/core/user_manager.py"""
-from db import db
+from src.db import db
 
-from models import (SignUpRequest, LogInRequest, 
+from src.models import (SignUpRequest, LogInRequest, 
                     UserPasswordPair, User, 
                     SessionTokenHolder, AuthResponse, 
                     LogOutRequest, LogOutResponse)

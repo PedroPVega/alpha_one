@@ -2,9 +2,9 @@
 
 from fastapi import APIRouter, HTTPException, Response
 
-from models import LogOutRequest, LogOutResponse
+from src.models import LogOutRequest, LogOutResponse
 
-from core import handle_logout_request
+from src.core import handle_logout_request
 
 log_out_router = APIRouter()
 

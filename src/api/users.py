@@ -2,9 +2,9 @@
 
 from fastapi import APIRouter, HTTPException
 
-from models import User, RefreshResponse, RefreshRequest
+from src.models import User, RefreshResponse, RefreshRequest
 
-from core import handle_get_users, handle_refresh
+from src.core import handle_get_users, handle_refresh
 
 
 users_router = APIRouter()

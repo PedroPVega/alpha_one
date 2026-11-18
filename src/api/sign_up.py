@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, Response
 
-from models import SignUpRequest, AuthResponse
+from src.models import SignUpRequest, AuthResponse
 
-from core import handle_signup_request
+from src.core import handle_signup_request
 
 sign_up_router = APIRouter()
 

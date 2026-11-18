@@ -4,7 +4,7 @@ import uuid
 
 from pydantic import BaseModel
 
-from models import User, UserPasswordPair, SessionTokenHolder, SignUpRequest 
+from src.models import User, UserPasswordPair, SessionTokenHolder, SignUpRequest 
 
 class DataBase(BaseModel):
     user_list: list[UserPasswordPair] = []

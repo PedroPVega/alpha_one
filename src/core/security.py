@@ -5,8 +5,8 @@ import bcrypt
 import secrets
 import datetime
 
-from config import cfg
-from models import User, SessionTokenHolder
+from src.config import cfg
+from src.models import User, SessionTokenHolder
 
 ACCESS_TOKEN_LIFESPAN = 60 # duration of an access token in minutes
 

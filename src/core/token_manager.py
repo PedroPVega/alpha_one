@@ -3,9 +3,9 @@
 import uuid
 import datetime
 
-from db import db
+from src.db import db
 
-from models import SessionTokenHolder
+from src.models import SessionTokenHolder
 
 from .security import generate_access_token
 

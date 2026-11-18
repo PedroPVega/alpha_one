@@ -42,6 +42,7 @@ So these are the solutions that must be made:
 git clone ...
 cd alpha_one
 uv sync
+source .venv/bin/activate
 cp .env.example .env 
 uv run uvicorn src.app:app --reload --port 8080
 ```

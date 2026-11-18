@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, Response
 
-from models import LogInRequest, AuthResponse
+from src.models import LogInRequest, AuthResponse
 
-from core import handle_login_request
+from src.core import handle_login_request
 
 log_in_router = APIRouter()
 

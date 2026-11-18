@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from api import racine, login_service, logout_service, signup_service, user_service
+from .api import racine, login_service, logout_service, signup_service, user_service
 
 _title = "Alpha 1"
 
